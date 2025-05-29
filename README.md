@@ -1,2 +1,2 @@
-# aep.github.io
+# AEdPro
 Accessible Educational Programs (AEP) Website

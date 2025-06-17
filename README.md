@@ -1,2 +1,2 @@
-# AEdPro
-Accessible Educational Programs (AEP) Website
+# Freecix
+Free Courses Index Website

@@ -6,10 +6,15 @@
         <meta name="keywords" content="Free Courses, Psychology, English, Arabic, Russian">
         <meta name="author" content="Free Courses Index team">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Freecix - the Free Courses Index</title>
     </head>
 <body>
-    <div class="upper-main">
+    <div class="upper-main" id="home">
         <h1>Welcome to Freecix</h1>
         <p>You are in the right place to find free courses you need.</p>
         <search>
@@ -18,19 +23,19 @@
         </form>
         </search>
     </div>
-    <div class="blue-section1">
-        <div class="img-text-pair">
-            <img src="" href="" alt="laptop and a cup">
+    <div class="blue-section1" id="main-menu">
+        <div class="img-text-pair" id="card1">
+            <img src="coffee.jpg" alt="laptop and a cup">
             <h1>Courses</h1>
             <p>Imma put some text here later</p>
         </div>
-        <div class="img-text-pair">
+        <div class="img-text-pair" id="card2">
             <img src="" href="" alt="a bunch of papers and an eyeglass">
             <h1>Articles</h1>
             <p>imma put some text here later</p>
         </div>
     </div>
-    <div class="wimage-1">
+    <div class="wimage-1" id="contributor">
         <h1>Become a Contributor</h1><br>
         <p>You got an interesting free course in your library that we haven’t added yet? <br> 
             Fill out the form as shown in the example for us to consider!<br>
@@ -45,7 +50,7 @@
                 <input type="button" value="Send"><br>
             </form>
     </div>
-    <div class="blue-section2">
+    <div class="blue-section2" id="updates">
         <img src="" href="" alt="a man looking at a laptop">
         <h1>Update Logs</h1>
         <p>April 2026
@@ -116,7 +121,7 @@
             </ul>
         </p>
     </div>
-    <div class="wimage-2">
+    <div class="wimage-2" id="feedback">
         <h1>Send Feedback</h1><br>
         <p>What can we do to make this website better?<br>
         We would really appreciate your feedback.</p><br>
@@ -132,7 +137,7 @@
                 <input type="button" value="Send"><br>
             </form>
     </div>
-    <div class="blue-section3">
+    <div class="blue-section3" id="sharing">
         <h1>Thank you for utilizing this index and <br> keeping your curious brain fit!</h1>
         <p>We understand that it’s not always easy to find quality courses on the internet. Moreover, the commodification of education has widen the gap of opportunities between the rich and poor. Because of that, spreading the word about free educational programs is very important. Let’s help fellow self-learners, students, and everyone else get a taste of free educational programs.</p>
         <br><br>
@@ -146,24 +151,25 @@
 </body>
 <footer>
     <ul id="l1">
-        <li><link href="">Home</li>
-        <li><link href="">Articles</li>
-        <li><link href="">Contribute</li>
-        <li><link href="">Updates</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="articles-main.html">Articles</a></li>
+        <li><a href="#contributor">Contribute</a></li>
+        <li><a href="#updates">Updates</a></li>
     </ul>
     <h1>Courses</h1>
     <ul>
-      <li><link href="">in English</li>
-      <li><link href="">in Bahasa Indonesia</li>
-      <li><link href="">Mata Pelajaran</li>
-      <li><link href="">Submit Course in Your Language</li>
+      <li><a href="courses.html">in English</a></li>
+      <li><a href="courses.html">in Bahasa Indonesia</a></li>
+      <li><a href="courses.html">Mata Pelajaran</a></li>
+      <li><a href="#contributor">Submit Course in Your Language</a></li>
+
     </ul>
     <h1>Support Us</h1>
     <ul>
-      <li><link href="">Donate</li>
-      <li><link href="">Share This Site with Friends</li>
-      <li><link href="">Become a Contributor</li>
-      <li><link href="">Share your Feedback</li>
+      <li><a href="/">Donate</a></li>
+      <li><a href="/">Share This Site with Friends</a></li>
+      <li><a href="#contributor">Become a Contributor</a></li>
+      <li><a href="#feedback">Share your Feedback</a></li>
     </ul>
     <h1>For Sponsors</h1>
     <ul>
@@ -172,7 +178,7 @@
     </ul>
     <h1>Contact Us</h1>
     <ul>
-        <li><link href="">Email</li>
+        <li><a href="/">Email</a></li>
     </ul>
         &copy; Free Courses Index Team
     </footer>
